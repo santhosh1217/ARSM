@@ -1,0 +1,25 @@
+{
+    "_id": "ObjectId()",
+    "code": "String",
+    "title": "String",
+    "category": "String",
+    "type":"String", // [LAB,THEORY,PROJECT,...]
+    "perWeek": {
+        "lecture": "Number",
+        "tutorial": "Number",
+        "practical": "Number"
+    },
+    "partType": "Number",
+    "credit": "Number",
+    "prerequisites": [
+        {
+            "courseId": "ObjectId()",
+            "courseCode": ""
+        }
+    ],
+    "maximumMark": {
+        "CA": "Number",
+        "FE": "Number",
+        "Total": "Number"
+    }
+}

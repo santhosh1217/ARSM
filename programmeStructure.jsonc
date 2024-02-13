@@ -1,0 +1,15 @@
+{
+    "id": "ObjectId()",
+    "programme": 
+    {
+        "id": "ObjectId()",
+        "name": "B.Sc CS"
+    },
+    "semester": "Number",
+    "courses": [
+        {
+            "key": "String", //[Part Type = 1,2,3,4,5,6], [Category = BS,HS,PC,PE,OE,MC,EEC] 
+            "value": "Number"
+        }
+    ]
+}
