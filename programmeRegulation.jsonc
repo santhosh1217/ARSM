@@ -1,20 +1,11 @@
 [
     {
-        "id": "1",
-        "code": "BCS",
-        "name": "B.Sc CS",
-        "duration": 3,
-        "structureId": "ObjectId()",
-        "regulationId": "1",
-        "batchYears": [] 
-    },
-    {
-        "id": "2",
-        "code": "BCT",
-        "name": "B.Sc CT",
-        "duration": 3,
-        "structureId": "ObjectId()",
-        "regulationId": "1",
-        "batchYears": []
+        "id": "ObjectId()", //1
+        "code":"String", //BCS , BCA
+        "name": "String", // B.Sc CS",
+        "duration": "Stirng", //3 , 4
+        "structureId": "ObjectId()", //structure id
+        "regulationId": "ObjectId()", //regulation id
+        "batchYears": ["String"] //2024
     }
 ]

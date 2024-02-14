@@ -1,15 +1,12 @@
 {
-    "id": "ObjectId()",
-    "programme": 
-    {
-        "id": "ObjectId()",
-        "name": "B.Sc CS"
-    },
-    "semester": "Number",
-    "courses": [
+    "id": "ObjectId()", //1
+    "programId":"ObjectId()",
+    "semester": "Number", //1 to 10
+    "courses": 
+    [
         {
-            "key": "String", //[Part Type = 1,2,3,4,5,6], [Category = BS,HS,PC,PE,OE,MC,EEC] 
-            "value": "Number"
+            "key": "String", //[Part Type = 1,2,3,4,5,6], [Category = BS,HS,PC,PE,OE,MC,EEC] , [name = theory course,practical course]
+            "value": "Number"  //4
         }
     ]
 }

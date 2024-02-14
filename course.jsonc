@@ -1,8 +1,8 @@
 {
     "_id": "ObjectId()",
-    "code": "String",
+    "code": "String", //
     "title": "String",
-    "category": "String",
+    "category": "String", 
     "type":"String", // [LAB,THEORY,PROJECT,...]
     "perWeek": {
         "lecture": "Number",
@@ -11,13 +11,15 @@
     },
     "partType": "Number",
     "credit": "Number",
-    "prerequisites": [
+    "prerequisites": 
+    [
         {
             "courseId": "ObjectId()",
             "courseCode": ""
         }
     ],
-    "maximumMark": {
+    "maximumMark": 
+    {
         "CA": "Number",
         "FE": "Number",
         "Total": "Number"

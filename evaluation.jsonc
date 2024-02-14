@@ -1,0 +1,25 @@
+{
+    "id": "ObjectId()", //1
+    "name": "String", //theory , laboratary , iv & lecture , craft training and documentation, project work
+    "percentage": 
+    [
+        {
+            "CA": "Number",
+            "FE": "Number"
+        }
+    ],
+    "CA": 
+    [
+        {
+            "key": "String", //test 1 and report 1 , review 1 and review 2
+            "mark": "Number" //25 marks , 40 marks
+        }
+    ],
+    "FE": 
+    [
+        {
+            "key": "String", //final test , viva voice
+            "mark": "Number" //40 marks , 60 marks
+        }
+    ]
+}

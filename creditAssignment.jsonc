@@ -1,10 +1,9 @@
 {
     "id": "ObjectId()",
     "perWeek": 
-    [
-        {
-            "lecture": "Number",
-            "credit": "Number"
+        [{
+            "lecture": "Number", //2
+            "credit": "Number"  //1
         },
         {
             "tutorial": "Number",
@@ -13,6 +12,6 @@
         {
             "practical": "Number",
             "credit": "Number"
-        }
-    ]
+        }]
+    
 }
