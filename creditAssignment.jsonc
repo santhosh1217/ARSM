@@ -6,12 +6,12 @@
             "credit": "Number"  //1
         },
         {
-            "tutorial": "Number",
-            "credit": "Number"
+            "tutorial": "Number", //1
+            "credit": "Number" //1
         },
         {
-            "practical": "Number",
-            "credit": "Number"
+            "practical": "Number", //3
+            "credit": "Number"  //1
         }]
     
 }

@@ -4,18 +4,20 @@
     "title": "String",
     "category": "String", 
     "type":"String", // [LAB,THEORY,PROJECT,...]
-    "perWeek": {
+    "perWeek": 
+    {
         "lecture": "Number",
         "tutorial": "Number",
         "practical": "Number"
     },
     "partType": "Number",
+    "creditAssignmentId":"ObjectId()",
     "credit": "Number",
     "prerequisites": 
     [
         {
             "courseId": "ObjectId()",
-            "courseCode": ""
+            "courseCode": "String"
         }
     ],
     "maximumMark": 

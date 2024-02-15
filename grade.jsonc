@@ -1,14 +1,15 @@
 {
-    "id":"ObjectId()",
+    "id": "ObjectId()",
     "type": "String", //absolute,relative
-    "letterGrade": "String", //A+,B,C,RA
-    "markRange":[
+    "grade": [
         {
-            "min" : 91, 
-            "max" :100, 
-            "grade" : 10, 
-            "letterGrade":"O"
+            "letter": "String", //A+,B,C,RA
+            "range": 
+            {
+                "min": 91,
+                "max": 100
+            },
+            "point": 10
         }
-    ],
-    "gradePoint":"Number" //10,9,8
+    ]
 }
