@@ -1,13 +1,12 @@
 [
     {
         "id": "ObjectId()", //1
-        "code":"String", //BCS , BCA , BE
-        "name": "String", // B.Sc CS", BE CS
-        "duration": "Stirng", //3 , 4
         "regulationId": "ObjectId()", //regulation id
+        "programmeId": "ObjectId()", //programme id
+        
         "gradeId":"ObjectId()",  //grade id
         "evaluationId":"ObjectId()", //evaluation id
         "structureId": "ObjectId()", //structure id
-        "batchYears": ["String"] //2024
+        "creditAssignmentId":"ObjectId()"//credit id
     }
 ]

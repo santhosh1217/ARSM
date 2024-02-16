@@ -1,6 +1,6 @@
 {
     "id": "ObjectId()", //1
-    "programId":"ObjectId()",
+    "programmeId":"ObjectId()",
     "semester": "Number", //1 to 10
     "courses": 
     [

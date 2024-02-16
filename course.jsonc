@@ -11,7 +11,6 @@
         "practical": "Number"
     },
     "partType": "Number",
-    "creditAssignmentId":"ObjectId()",
     "credit": "Number",
     "prerequisites": 
     [
@@ -25,5 +24,6 @@
         "CA": "Number",
         "FE": "Number",
         "Total": "Number"
-    }
+    },
+    "programmeRegulationId":"ObjectId()"
 }
