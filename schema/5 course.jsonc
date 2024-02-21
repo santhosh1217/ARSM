@@ -1,0 +1,32 @@
+[
+    {
+        "_id": "ObjectId()",
+        "programRegulationId": "ObjectId()",
+        "semester": "Number", //1 to 10
+        "code": "String", //
+        "title": "String",
+        "type": "String", // [LAB,THEORY,PROJECT,...]
+        "group": "String", // Core , Foundation , Elective
+        "electiveType": "String", //open , proffesional
+        "vertical": "String",
+        "category": "String",
+        "perWeek": 
+        {
+            "lecture": "Number", 
+            "tutorial": "Number",
+            "practical": "Number" 
+        },
+        "partType": "Number",
+        "credit": "Number",
+        "prerequisites": 
+        [
+            {
+                "courseId": "ObjectId()",
+                "courseCode": "String"
+            }
+        ],
+        "isPlaceholder":"bool",
+        "evaluationId": "ObjectId()", //CA FE pattern
+        "gradeId": "ObjectId()"
+    }
+]

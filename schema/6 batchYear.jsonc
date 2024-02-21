@@ -1,0 +1,7 @@
+{
+    "regulationId" :"ObjectId()",
+    "programmeRegulationId":"ObjectId()",
+    "batchYear":"ObjectId()",
+    "programmeId" : "ObjectId()"
+
+}

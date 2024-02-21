@@ -1,0 +1,34 @@
+{
+    "id": "ObjectId()", //1
+    "type": "String", //theory , laboratary , iv & lecture , craft training and documentation, project work
+    "markSplitUp": {
+        "CA": "Number",
+        "FE": "Number",
+        "total": "Number"
+    },
+    "CA": 
+        {
+            "component": "String", //test 1 and report 1 , review 1 and review 2
+            "mark": "Number", //25 marks , 40 marks
+            "hasSubComponent": "Boolean",
+            "hasConversion": "Boolean",
+            "evaluationMark": "Number", //50
+            "sub": [
+                {
+                    "component": "String",
+                    "mark": "Number",
+                    "hasSubComponent": "Boolean",
+                    "hasConversion": "Boolean",
+                    "evaluationMark": "Number"
+                     
+                }
+            ]
+        }
+    ,
+    "FE": [
+        {
+            "key": "String", //final test , viva voice
+            "mark": "Number" //40 marks , 60 marks
+        }
+    ]
+}

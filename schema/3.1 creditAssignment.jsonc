@@ -1,0 +1,15 @@
+{
+    "id": "ObjectId()",
+    "lecture": {
+        "hrs": "Number", //1
+        "credit": "Number" //1
+    },
+    "tutorial": {
+        "hrs": "Number", //1
+        "credit": "Number" //1
+    },
+    "practical": {
+        "hrs": "Number", //2
+        "credit": "Number" //1
+    }
+}

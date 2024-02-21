@@ -1,8 +1,0 @@
-{
-    "_id":"ObjectId()", //1
-    "name": "String", // B.Sc CS", BE CS
-    "code":"String", //BCS , BCA , BE
-    "shortName":"String", //BIT
-    "courseCode":"String", //CS0 IT0
-    "duration":"Number" //4
-}
