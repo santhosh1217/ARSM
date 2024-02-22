@@ -1,32 +1,31 @@
 [
     {
-        "_id": "ObjectId()",
-        "programRegulationId": "ObjectId()",
-        "semester": "Number", //1 to 10
-        "code": "String", //
-        "title": "String",
-        "type": "String", // [LAB,THEORY,PROJECT,...]
-        "group": "String", // Core , Foundation , Elective
-        "electiveType": "String", //open , proffesional
-        "vertical": "String",
-        "category": "String",
+        "_id": "ObjectId()",  // unique identifier
+        "regulationId": "ObjectId()",  // regulation identifier
+        "evaluationId": "ObjectId()",  // evaluation identifier
+        "gradeId": "ObjectId()",  // grade identifier is choosen from array of grades in evaluation
+        "code": "String",  // "CS101"
+        "title": "String",  // "Introduction to Computer Science"
+        "type": "String",  // "LAB"
+        "group": "String",  // "Core"
+        "electiveType": "String",  // "open"
+        "vertical": "String",  // "data science"
+        "category": "String",  // "Programming"
         "perWeek": 
         {
-            "lecture": "Number", 
-            "tutorial": "Number",
-            "practical": "Number" 
+            "lecture": "Number",  // 3
+            "tutorial": "Number",  // 1
+            "practical": "Number"   // 2
         },
-        "partType": "Number",
-        "credit": "Number",
+        "partType": "Number",  // 1
+        "credit": "Number",  // 4
         "prerequisites": 
         [
             {
-                "courseId": "ObjectId()",
-                "courseCode": "String"
+                "courseId": "ObjectId()",  // "ObjectId('60922aefb45de3b60e383950')"
+                "courseCode": "String"  // "CS100"
             }
         ],
-        "isPlaceholder":"bool",
-        "evaluationId": "ObjectId()", //CA FE pattern
-        "gradeId": "ObjectId()"
+        "isPlaceholder": "bool"  // false
     }
 ]

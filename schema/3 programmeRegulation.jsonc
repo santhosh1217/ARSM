@@ -5,7 +5,7 @@
         "programmeId": "ObjectId()", //programme id
         
         "gradeId":["ObjectId()"],  //grade id
-        "evaluationId":[1,2,3], //evaluation id
-        "creditAssignmentId":"ObjectId()"//credit id
+        "evaluationId":["ObjectId()"], //evaluation id
+        "creditAssignmentId":"ObjectId()" //credit id
     }
 ]

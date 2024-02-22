@@ -1,13 +1,13 @@
 {
-    "_id":"ObjectId()", //1
-    "name": "String", // B.Sc CS", BE CS
-    "code":"String", //BCS , BCA , BE
-    "shortName":"String", //BIT
-    "courseCodeSubStr":"String", //CS0 IT0
-    "duration":"Number", //4
-    "minCredits":
+    "_id": "ObjectId()", //1
+    "name": "String", // "B.Sc CS", "BE CS"
+    "code": "String", // "BCS", "BCA", "BE"
+    "shortName": "String", // "BIT"
+    "courseCodeSubStr": "String", // "CS0", "IT0"
+    "duration": "Number", // 4
+    "minCredits": 
     {
-        "regular":"Num", //120
-        "lateral":"Num" //100
+        "regular": "Number", // 120
+        "lateral": "Number" // 100
     }
 }

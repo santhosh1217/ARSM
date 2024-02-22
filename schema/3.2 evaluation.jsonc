@@ -1,34 +1,34 @@
 {
     "id": "ObjectId()", //1
-    "type": "String", //theory , laboratary , iv & lecture , craft training and documentation, project work
-    "markSplitUp": {
-        "CA": "Number",
-        "FE": "Number",
-        "total": "Number"
+    "markSplitUp": 
+    {
+        "CA": "Number", // Continuous Assessment marks
+        "FE": "Number", // Final Examination marks
+        "total": "Number" // Total marks
     },
     "CA": 
+    [{
+        "component": "String", // "assesment", "project work" , "internal tests
+        "mark": "Number", // 25 marks, 40 marks
+        "hasSubComponent": "Boolean", // Whether the CA has sub-components
+        "hasConversion": "Boolean", // Whether the marks have conversion
+        "evaluationMark": "Number", // Evaluation marks for the component
+        "sub": 
+        [
+            {
+                "component": "String", // e.g., "sub-component 1", "sub-component 2"
+                "mark": "Number", // e.g., 20 marks, 30 marks
+                "hasSubComponent": "Boolean", // Whether the sub-component has further sub-components
+                "hasConversion": "Boolean", // Whether the marks have conversion
+                "evaluationMark": "Number" // Evaluation marks for the sub-component
+            }
+        ]
+    }],
+    "FE": 
+    [
         {
-            "component": "String", //test 1 and report 1 , review 1 and review 2
-            "mark": "Number", //25 marks , 40 marks
-            "hasSubComponent": "Boolean",
-            "hasConversion": "Boolean",
-            "evaluationMark": "Number", //50
-            "sub": [
-                {
-                    "component": "String",
-                    "mark": "Number",
-                    "hasSubComponent": "Boolean",
-                    "hasConversion": "Boolean",
-                    "evaluationMark": "Number"
-                     
-                }
-            ]
-        }
-    ,
-    "FE": [
-        {
-            "key": "String", //final test , viva voice
-            "mark": "Number" //40 marks , 60 marks
+            "key": "String", // e.g., "final test", "viva voice"
+            "mark": "Number" // e.g., 40 marks, 60 marks
         }
     ]
 }

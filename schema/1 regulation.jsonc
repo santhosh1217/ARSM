@@ -1,6 +1,6 @@
 {
-    "id":"ObjectId()", //1
-    "year":"Number", //2024
-    "version":"Number", //0,
-    "remarks":"String" 
+    "id": "ObjectId()", //1
+    "year": "Number", //2024
+    "version": "Number", //0
+    "remarks": "String" // Any remarks or notes about the entry
 }
