@@ -3,6 +3,7 @@
         "_id": "ObjectId()",  // unique identifier
         "regulationId": "ObjectId()",  // regulation identifier
         "evaluationId": "ObjectId()",  // evaluation identifier
+        "semester":"Number", //1
         "gradeId": "ObjectId()",  // grade identifier is choosen from array of grades in evaluation
         "code": "String",  // "CS101"
         "title": "String",  // "Introduction to Computer Science"
